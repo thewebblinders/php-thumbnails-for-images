@@ -28,10 +28,11 @@ class ThumbNailer extends SimpleImage{
  
     }
 }
+// USAGE
 $tn=new ThumbNailer();
-$tn->generateThumbnail('./source-images/A-PNG-IMAGE.png','./thumbnail-images/png.png');
-$tn->generateThumbnail('./source-images/A-JPG-IMAGE.jpg','./thumbnail-images/jpg.jpg');
-$tn->generateThumbnail('./source-images/A-GIF-IMAGE.gif','./thumbnail-images/gif.gif');
+echo $tn->generateThumbnail('./source-images/A-PNG-IMAGE.png','./thumbnail-images/png.png'); // true or false
+echo $tn->generateThumbnail('./source-images/A-JPG-IMAGE.jpg','./thumbnail-images/jpg.jpg'); // true or false
+echo $tn->generateThumbnail('./source-images/A-GIF-IMAGE.gif','./thumbnail-images/gif.gif'); // true or false
 
 
 
